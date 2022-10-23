@@ -1,0 +1,8 @@
+# Define your function here 
+def feet_to_steps(user_feet):
+    steps = user_feet / 2.5
+    steps = int(steps)
+    return steps
+if __name__ == '__main__':
+    # Type your code here.
+    print(feet_to_steps(float(input())))
